@@ -1,0 +1,80 @@
+/*
+Theme Name: Online Bookstore Assignment 2
+Author: Roshan G C
+Description: This is the custom theme for Assignment 2: A custom theme for an online bookstore using WooCommerce.
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 5.6
+Version: 1.00
+*‎Thank you for your business! We look forward to working with you again.
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #ddd;
+    text-align: left;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    margin: 0;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.featured-books {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: white;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
